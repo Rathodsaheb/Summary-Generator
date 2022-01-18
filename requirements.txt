@@ -1,6 +1,8 @@
 backcall==0.2.0
 click==7.1.2
 colorama==0.4.4
+certifi==2021.5.30
+chardet==4.0.0
 configparser==5.0.2
 decorator==4.4.2
 filelock==3.0.12
