@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.navbar-brand img{
+    height: 50px;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(55, 182, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }  
+  .navbar-toggler {
+    /* border-color: ; */
+    border: 0px solid #0065BD !important;
+    padding: 0px !important;
+  } 
+  
+  .nav-item {
+  color: #0065BD !important;
+  font-family: font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 1cm !important ;
+  margin-right: 1cm !important;
+  
+  }
+  
+  .nav-item:hover {
+    color: #fff !important;
+    background-color: #37b6ff;
+    text-decoration: none !important;
+    border-radius: 10px;
+    text-decoration-color: #0065BD !important;
+  
+  }
+  
+  .fpass a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0065BD;
+  }
+  .fpass a:hover{
+    text-decoration: underline;
+    font-size: 14px;
+    color: #0065BD;
+  }
+  h2{
+      color: #0065BD !important;
+      font-family: 'Oxygen', sans-serif !important;
+      font-weight: bold;
+  }
+
+h5{
+      color: #37b6ff !important;
+      font-family: 'Oxygen', sans-serif !important;
+  }
+#about{
+    padding: 50px 0 0 0 !important;
+}
+.about{
+    margin: 50px 10%;
+    border-radius: 50px;
+    padding: 20px;
+    background-image: linear-gradient( 90deg, rgba(55, 182, 255,0), rgba(55, 182, 255,0.1));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}  
+.about h5{
+      color: #000000 !important;
+      font-family: 'Oxygen', sans-serif !important;
+}
+.ouservices{
+    background-color: rgba(55, 182, 255,0.1);
+    padding: 50px 0;
+}
+.card{
+    width: 100%;
+    margin: 30px auto 20px auto;
+}
+.card-text{
+    color: #000;
+    text-align: justify;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.contact{
+    background-color: #000;
+}
+.cont{
+    width: 100%;
+    margin: auto;
+}
+.hcont{
+    color: #37b6ff;
+}
+.pcont{
+    color: #f2f2fe;
+}
+.reserved{
+    background-color: #000;
+}
+.reserved p{
+    margin: 0px !important;
+    text-align: center;
+    color: #f2f2fe;
+    padding: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.fab{
+    font-size: 25px;
+    margin: 6px;
+}
+
+.service{
+        margin: 50px 10%;
+        border-radius: 5px;
+        padding: 50px;
+        background-color: #0065BD
+        /* background-image: linear-gradient( 90deg, rgba(55, 182, 255,0), rgba(55, 182, 255,0.1)); */
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5); */
+     
+}
+.input, .output{
+    /* border: 2px solid red; */
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: 20px auto 20px auto;
+}
+
+
+input.serv{
+    width: 100%;
+    height: 40px;
+    margin: 10px auto 10px auto;
+    /* border-radius: 10px; */
+    border: 1px solid #dde0e0;
+    background-color: #f3f7f7;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+ }
+ .submit{
+    background-color:#0065BD ;
+    color: #fff;
+    /* font-weight: bolder; */
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.service h2{
+    color: #fff !important;
+}
+
+.input img{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.output h5{
+    color: #0065BD !important;
+
+}
+.service1, .service2, .service3{
+    padding-top: 50px;
+}
