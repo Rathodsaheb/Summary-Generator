@@ -44,7 +44,7 @@ Pillow==8.2.0
 pipwin==0.5.1
 proglog==0.1.9
 prompt-toolkit==3.0.18
-PyAudio==0.2.11
+#PyAudio==0.2.11
 Pygments==2.8.1
 pyjsparser==2.7.1
 pyparsing==2.4.7
