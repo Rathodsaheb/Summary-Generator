@@ -1,1 +1,3 @@
 # Summary-Generator
+
+Here I have made three services viz. Video to summary, Speech to summary and pdf to summary.So this services work on deep learning based transformer model which wii do most of the NLP steps to give summary from input text data. And to feed text to this model different libraries like google's speech_recognition to record speech and generate text,moviepy to get voice form video, pytesseract to implement OCR technique on pdf file and others libraries are used. This system integrate with HTML web page through Flask frame work and this project I'm planning to host on AWS servers to get the experience with Amazon cloud services.
