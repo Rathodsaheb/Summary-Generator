@@ -54,3 +54,6 @@ wincertstore==0.2
 zipp==3.4.1
 zope.interface==5.4.0
 PyPDF2
+#Following command execute seperately
+#sudo apt install ffmpeg
+#pip install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
