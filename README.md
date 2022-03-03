@@ -1,7 +1,7 @@
 # Summary-Generator
 
 ## Introduction:
-This application provides three typres of services viz. Video to summary, Speech to summary and pdf to summary.So this services work on deep learning based transformer model which wii do most of the NLP steps to give summary from input text data. And to feed text to this model different libraries like google's speech_recognition to record speech and generate text,moviepy to get voice form video, PyPDF2 to implement OCR technique on pdf file and others libraries are used. This system integrate with HTML and css web page through Flask frame-work and this project is deployed on AWS EC2 DL1 instance servers.
+This application provides three types of services viz. Video to the summary, Speech to summary, and pdf to summary. So these services work on a deep learning-based transformer model which will does most of the NLP steps to give a summary from input text data. And to feed text to this model different libraries like google's speech_recognition to record speech and generate text,moviepy to get voice form video, PyPDF2 to implement OCR technique on the pdf file and other libraries are used. This system integrates with HTML and CSS web page through Flask framework and this project is deployed on AWS EC2 DL1 instance servers.
 ## Dashboard:
 ![whole-sum2](https://user-images.githubusercontent.com/86550391/154644552-a482ac0f-000b-4748-b11f-3828141cf218.gif)
 ## Services view:
